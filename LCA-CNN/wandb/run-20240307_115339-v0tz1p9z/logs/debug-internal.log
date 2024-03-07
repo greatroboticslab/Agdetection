@@ -1,0 +1,185 @@
+2024-03-07 11:53:39,979 INFO    StreamThr :385926 [internal.py:wandb_internal():89] W&B internal server running at pid: 385926, started at: 2024-03-07 11:53:39.978360
+2024-03-07 11:53:39,982 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: status
+2024-03-07 11:53:39,988 INFO    WriterThread:385926 [datastore.py:open_for_write():85] open: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/run-v0tz1p9z.wandb
+2024-03-07 11:53:39,989 DEBUG   SenderThread:385926 [sender.py:send():380] send: header
+2024-03-07 11:53:40,007 DEBUG   SenderThread:385926 [sender.py:send():380] send: run
+2024-03-07 11:53:40,686 INFO    SenderThread:385926 [dir_watcher.py:__init__():211] watching files in: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files
+2024-03-07 11:53:40,686 INFO    SenderThread:385926 [sender.py:_start_run_threads():1125] run started: v0tz1p9z with start time 1709830419.977202
+2024-03-07 11:53:40,700 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: check_version
+2024-03-07 11:53:40,701 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: check_version
+2024-03-07 11:53:40,798 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: run_start
+2024-03-07 11:53:42,275 DEBUG   HandlerThread:385926 [system_info.py:__init__():32] System info init
+2024-03-07 11:53:42,275 DEBUG   HandlerThread:385926 [system_info.py:__init__():47] System info init done
+2024-03-07 11:53:42,276 INFO    HandlerThread:385926 [system_monitor.py:start():181] Starting system monitor
+2024-03-07 11:53:42,276 INFO    SystemMonitor:385926 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-03-07 11:53:42,277 INFO    HandlerThread:385926 [system_monitor.py:probe():201] Collecting system info
+2024-03-07 11:53:42,278 INFO    SystemMonitor:385926 [interfaces.py:start():190] Started cpu monitoring
+2024-03-07 11:53:42,279 INFO    SystemMonitor:385926 [interfaces.py:start():190] Started disk monitoring
+2024-03-07 11:53:42,281 INFO    SystemMonitor:385926 [interfaces.py:start():190] Started gpu monitoring
+2024-03-07 11:53:42,283 INFO    SystemMonitor:385926 [interfaces.py:start():190] Started memory monitoring
+2024-03-07 11:53:42,284 INFO    SystemMonitor:385926 [interfaces.py:start():190] Started network monitoring
+2024-03-07 11:53:42,324 DEBUG   HandlerThread:385926 [system_info.py:probe():196] Probing system
+2024-03-07 11:53:42,325 DEBUG   HandlerThread:385926 [system_info.py:_probe_git():181] Probing git
+2024-03-07 11:53:42,346 DEBUG   HandlerThread:385926 [system_info.py:_probe_git():189] Probing git done
+2024-03-07 11:53:42,346 DEBUG   HandlerThread:385926 [system_info.py:probe():244] Probing system done
+2024-03-07 11:53:42,346 DEBUG   HandlerThread:385926 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-97-generic-x86_64-with-debian-bullseye-sid', 'python': '3.6.13', 'heartbeatAt': '2024-03-07T16:53:42.324558', 'startedAt': '2024-03-07T16:53:39.963679', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'report.py', 'codePathLocal': 'report.py', 'codePath': 'LCA-CNN/report.py', 'git': {'remote': 'https://github.com/greatroboticslab/finegrainedcascade/', 'commit': '88439f90e9447abffc222f88a37233b95f3bddfc'}, 'email': 'hbzhang@vt.edu', 'root': '/data/laser_detection/work_dirs/finegrainedcascade', 'host': 'lambda-dual', 'username': 'mtsu', 'executable': '/home/mtsu/miniconda3/envs/lca_cnn/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3404.9967916666665, 'min': 1200.0, 'max': 4650.0}, 'cpu_freq_per_core': [{'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 1305.873, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4800.0}, {'current': 1300.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3500.0, 'min': 1200.0, 'max': 4700.0}], 'disk': {'/': {'total': 915.3232879638672, 'used': 596.4773139953613}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25447170048}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25443893248}], 'memory': {'total': 62.478851318359375}}
+2024-03-07 11:53:42,347 INFO    HandlerThread:385926 [system_monitor.py:probe():211] Finished collecting system info
+2024-03-07 11:53:42,347 INFO    HandlerThread:385926 [system_monitor.py:probe():214] Publishing system info
+2024-03-07 11:53:42,347 DEBUG   HandlerThread:385926 [system_info.py:_save_pip():53] Saving list of pip packages installed into the current environment
+2024-03-07 11:53:42,348 DEBUG   HandlerThread:385926 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-07 11:53:42,348 DEBUG   HandlerThread:385926 [system_info.py:_save_conda():76] Saving list of conda packages installed into the current environment
+2024-03-07 11:53:42,691 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_created():271] file/dir created: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/conda-environment.yaml
+2024-03-07 11:53:42,692 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_created():271] file/dir created: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/requirements.txt
+2024-03-07 11:53:43,192 DEBUG   HandlerThread:385926 [system_info.py:_save_conda():87] Saving conda packages done
+2024-03-07 11:53:43,194 INFO    HandlerThread:385926 [system_monitor.py:probe():216] Finished publishing system info
+2024-03-07 11:53:43,722 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/conda-environment.yaml
+2024-03-07 11:53:43,724 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_created():271] file/dir created: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/wandb-metadata.json
+2024-03-07 11:53:43,865 DEBUG   SenderThread:385926 [sender.py:send():380] send: files
+2024-03-07 11:53:43,866 INFO    SenderThread:385926 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-03-07 11:53:43,877 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-07 11:53:43,877 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: stop_status
+2024-03-07 11:53:43,882 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-07 11:53:44,039 DEBUG   SenderThread:385926 [sender.py:send():380] send: telemetry
+2024-03-07 11:53:44,042 DEBUG   SenderThread:385926 [sender.py:send():380] send: exit
+2024-03-07 11:53:44,042 INFO    SenderThread:385926 [sender.py:send_exit():585] handling exit code: 1
+2024-03-07 11:53:44,042 INFO    SenderThread:385926 [sender.py:send_exit():587] handling runtime: 3
+2024-03-07 11:53:44,047 INFO    SenderThread:385926 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-07 11:53:44,047 INFO    SenderThread:385926 [sender.py:send_exit():593] send defer
+2024-03-07 11:53:44,048 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,048 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-07 11:53:44,048 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,049 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-07 11:53:44,049 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 1
+2024-03-07 11:53:44,049 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,049 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-07 11:53:44,050 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,050 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-07 11:53:44,050 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 2
+2024-03-07 11:53:44,050 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,051 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-07 11:53:44,052 INFO    HandlerThread:385926 [system_monitor.py:finish():190] Stopping system monitor
+2024-03-07 11:53:44,052 DEBUG   SystemMonitor:385926 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-03-07 11:53:44,052 INFO    HandlerThread:385926 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-07 11:53:44,053 DEBUG   SystemMonitor:385926 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-03-07 11:53:44,054 INFO    HandlerThread:385926 [interfaces.py:finish():202] Joined disk monitor
+2024-03-07 11:53:44,054 DEBUG   SystemMonitor:385926 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-03-07 11:53:44,173 INFO    HandlerThread:385926 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-07 11:53:44,174 INFO    HandlerThread:385926 [interfaces.py:finish():202] Joined memory monitor
+2024-03-07 11:53:44,174 INFO    HandlerThread:385926 [interfaces.py:finish():202] Joined network monitor
+2024-03-07 11:53:44,176 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,176 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-07 11:53:44,176 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 3
+2024-03-07 11:53:44,176 DEBUG   SenderThread:385926 [sender.py:send():380] send: stats
+2024-03-07 11:53:44,176 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,177 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-07 11:53:44,177 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,177 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-07 11:53:44,177 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 4
+2024-03-07 11:53:44,177 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,178 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-07 11:53:44,178 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,178 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-07 11:53:44,178 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 5
+2024-03-07 11:53:44,178 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,178 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-07 11:53:44,179 DEBUG   SenderThread:385926 [sender.py:send():380] send: summary
+2024-03-07 11:53:44,179 INFO    SenderThread:385926 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-07 11:53:44,179 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,179 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-07 11:53:44,179 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 6
+2024-03-07 11:53:44,179 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,180 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-07 11:53:44,180 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,180 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-07 11:53:44,184 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: status_report
+2024-03-07 11:53:44,319 INFO    wandb-upload_0:385926 [upload_job.py:push():131] Uploaded file /tmp/tmpr0umf_jhwandb/i8o7ljq6-wandb-metadata.json
+2024-03-07 11:53:44,554 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 7
+2024-03-07 11:53:44,554 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:44,554 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-07 11:53:44,555 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:44,555 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-07 11:53:44,723 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/config.yaml
+2024-03-07 11:53:44,724 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_created():271] file/dir created: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/wandb-summary.json
+2024-03-07 11:53:44,724 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_created():271] file/dir created: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/output.log
+2024-03-07 11:53:44,995 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-07 11:53:46,725 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/output.log
+2024-03-07 11:53:48,053 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 8
+2024-03-07 11:53:48,053 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: poll_exit
+2024-03-07 11:53:48,054 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:48,054 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-07 11:53:48,055 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:48,055 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-07 11:53:48,056 INFO    SenderThread:385926 [job_builder.py:build():281] Attempting to build job artifact
+2024-03-07 11:53:48,056 INFO    SenderThread:385926 [job_builder.py:_get_source_type():393] is repo sourced job
+2024-03-07 11:53:48,059 INFO    SenderThread:385926 [job_builder.py:build():369] adding wandb-job metadata file
+2024-03-07 11:53:48,067 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 9
+2024-03-07 11:53:48,068 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:48,069 DEBUG   SenderThread:385926 [sender.py:send():380] send: artifact
+2024-03-07 11:53:48,069 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-07 11:53:48,729 INFO    Thread-12 :385926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/output.log
+2024-03-07 11:53:48,971 INFO    SenderThread:385926 [sender.py:send_artifact():1456] sent artifact job-https___github.com_greatroboticslab_finegrainedcascade__LCA-CNN_report.py - {'id': 'QXJ0aWZhY3Q6NzQ0NDUzNjUw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NjIzMzQ5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzQ0NDUzNjUw', 'versionIndex': 0}}}
+2024-03-07 11:53:48,972 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:48,972 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-07 11:53:48,972 INFO    SenderThread:385926 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-07 11:53:49,731 INFO    SenderThread:385926 [dir_watcher.py:finish():388] scan: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files
+2024-03-07 11:53:49,731 INFO    SenderThread:385926 [dir_watcher.py:finish():402] scan save: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/config.yaml config.yaml
+2024-03-07 11:53:49,731 INFO    SenderThread:385926 [dir_watcher.py:finish():402] scan save: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/output.log output.log
+2024-03-07 11:53:49,732 INFO    SenderThread:385926 [dir_watcher.py:finish():402] scan save: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/requirements.txt requirements.txt
+2024-03-07 11:53:49,732 INFO    SenderThread:385926 [dir_watcher.py:finish():402] scan save: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/wandb-summary.json wandb-summary.json
+2024-03-07 11:53:49,752 INFO    SenderThread:385926 [dir_watcher.py:finish():402] scan save: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/wandb-metadata.json wandb-metadata.json
+2024-03-07 11:53:49,753 INFO    SenderThread:385926 [dir_watcher.py:finish():402] scan save: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/conda-environment.yaml conda-environment.yaml
+2024-03-07 11:53:49,753 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 10
+2024-03-07 11:53:49,759 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:49,759 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-07 11:53:49,761 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:49,766 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-07 11:53:49,767 INFO    SenderThread:385926 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-07 11:53:49,997 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-07 11:53:50,074 INFO    wandb-upload_1:385926 [upload_job.py:push():131] Uploaded file /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/config.yaml
+2024-03-07 11:53:50,125 INFO    wandb-upload_0:385926 [upload_job.py:push():131] Uploaded file /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/output.log
+2024-03-07 11:53:50,187 INFO    wandb-upload_2:385926 [upload_job.py:push():131] Uploaded file /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/requirements.txt
+2024-03-07 11:53:50,193 INFO    wandb-upload_3:385926 [upload_job.py:push():131] Uploaded file /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/wandb-summary.json
+2024-03-07 11:53:50,216 INFO    wandb-upload_4:385926 [upload_job.py:push():131] Uploaded file /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/files/conda-environment.yaml
+2024-03-07 11:53:50,417 INFO    Thread-11 :385926 [sender.py:transition_state():613] send defer: 11
+2024-03-07 11:53:50,418 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:50,418 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-07 11:53:50,419 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:50,420 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-07 11:53:50,420 INFO    SenderThread:385926 [file_pusher.py:join():181] waiting for file pusher
+2024-03-07 11:53:50,420 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 12
+2024-03-07 11:53:50,420 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:50,420 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-07 11:53:50,421 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:50,421 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-07 11:53:50,421 INFO    SenderThread:385926 [file_stream.py:finish():595] file stream finish called
+2024-03-07 11:53:50,513 INFO    SenderThread:385926 [file_stream.py:finish():599] file stream finish is done
+2024-03-07 11:53:50,513 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 13
+2024-03-07 11:53:50,513 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:50,514 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-07 11:53:50,514 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:50,515 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-07 11:53:50,515 INFO    SenderThread:385926 [sender.py:transition_state():613] send defer: 14
+2024-03-07 11:53:50,516 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: defer
+2024-03-07 11:53:50,516 DEBUG   SenderThread:385926 [sender.py:send():380] send: final
+2024-03-07 11:53:50,516 INFO    HandlerThread:385926 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-07 11:53:50,517 DEBUG   SenderThread:385926 [sender.py:send():380] send: footer
+2024-03-07 11:53:50,517 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: defer
+2024-03-07 11:53:50,517 INFO    SenderThread:385926 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-07 11:53:50,518 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-07 11:53:50,519 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: server_info
+2024-03-07 11:53:50,520 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: poll_exit
+2024-03-07 11:53:50,521 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: server_info
+2024-03-07 11:53:50,526 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-07 11:53:50,527 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-07 11:53:50,527 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: internal_messages
+2024-03-07 11:53:50,528 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: job_info
+2024-03-07 11:53:50,594 DEBUG   SenderThread:385926 [sender.py:send_request():407] send_request: job_info
+2024-03-07 11:53:50,595 INFO    MainThread:385926 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2024-03-07 11:53:50,595 INFO    MainThread:385926 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2024-03-07 11:53:50,595 INFO    MainThread:385926 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2024-03-07 11:53:50,596 DEBUG   HandlerThread:385926 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-07 11:53:50,596 INFO    HandlerThread:385926 [handler.py:finish():844] shutting down handler
+2024-03-07 11:53:51,529 INFO    WriterThread:385926 [datastore.py:close():294] close: /data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/wandb/run-20240307_115339-v0tz1p9z/run-v0tz1p9z.wandb
+2024-03-07 11:53:51,595 INFO    SenderThread:385926 [sender.py:finish():1534] shutting down sender
+2024-03-07 11:53:51,595 INFO    SenderThread:385926 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-07 11:53:51,595 INFO    SenderThread:385926 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,8 @@
+Found 326 images belonging to 5 classes.
+Evaluating weights-gatp-two-stream-inception_v3-096-0.8750.hdf5...
+Traceback (most recent call last):
+  File "report.py", line 62, in <module>
+    model = compile_model()
+  File "report.py", line 37, in compile_model
+    base_model1 = keras.applications.InceptionV3(include_top=False, weights='imagenet',
+NameError: name 'keras' is not defined

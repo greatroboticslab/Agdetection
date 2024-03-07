@@ -1,0 +1,172 @@
+{
+    "os": "Linux-5.15.0-97-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.6.13",
+    "heartbeatAt": "2024-03-07T01:50:24.917534",
+    "startedAt": "2024-03-07T01:50:22.857170",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "report.py",
+    "codePathLocal": "report.py",
+    "codePath": "LCA-CNN/report.py",
+    "git": {
+        "remote": "https://github.com/greatroboticslab/finegrainedcascade/",
+        "commit": "88439f90e9447abffc222f88a37233b95f3bddfc"
+    },
+    "email": "hbzhang@vt.edu",
+    "root": "/data/laser_detection/work_dirs/finegrainedcascade",
+    "host": "lambda-dual",
+    "username": "mtsu",
+    "executable": "/home/mtsu/miniconda3/envs/lca_cnn/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3406.4119166666665,
+        "min": 1200.0,
+        "max": 4650.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1288.398,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3500.0,
+            "min": 1200.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.3232879638672,
+            "used": 596.4779357910156
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25447170048
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25443893248
+        }
+    ],
+    "memory": {
+        "total": 62.478851318359375
+    }
+}

@@ -1,0 +1,10 @@
+Found 326 images belonging to 5 classes.
+Evaluating weights-gatp-two-stream-inception_v3-096-0.8750.hdf5...
+Traceback (most recent call last):
+  File "report.py", line 61, in <module>
+    model = compile_model()
+  File "report.py", line 42, in compile_model
+    model = GP.build_global_attention_pooling_model_cascade_attention([base_model1, base_model2], class_num)
+  File "/data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/model.py", line 151, in build_global_attention_pooling_model_cascade_attention
+    input_tensors_1 = tf.nest.flatten(base_network[0].input)
+AttributeError: module 'tensorflow' has no attribute 'nest'

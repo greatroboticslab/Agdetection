@@ -2,17 +2,16 @@ import keras.initializers as KI
 import keras.layers as KL
 import keras.losses as KLoss
 import tensorflow as tf
-from keras import backend as K
+import keras.backend as K
 from keras.engine.topology import Layer
 from keras.layers import Convolution2D, GlobalAveragePooling2D, Dense
 from keras.models import Model
 from keras.utils import conv_utils
 
-
 class GlobalAttentionPooling2D(Layer):
     def __init__(self, data_format=None, **kwargs):
         super(GlobalAttentionPooling2D, self).__init__(**kwargs)
-        self.data_format = K.normalize_data_format(data_format)
+        self.data_format = conv_utils.normalize_data_format(data_format)
 
     def compute_output_shape(self, input_shape):
         input_shape = input_shape[0]
@@ -149,8 +148,8 @@ def build_global_attention_pooling_model_cascade_attention(base_network, class_n
     height, width, depth = base_network[0].output_shape[1:]
 
     feature_map_step_1 = base_network[0].output
-
     S = Convolution2D(class_num, (1, 1), name='conv_class')(feature_map_step_1)
+
     A = GlobalAveragePooling2D()(S)
 
     y_old = KL.Softmax(name='output_1')(A)

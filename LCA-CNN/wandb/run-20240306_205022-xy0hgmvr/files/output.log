@@ -1,0 +1,14 @@
+Found 326 images belonging to 5 classes.
+Evaluating weights-gatp-two-stream-inception_v3-096-0.8750.hdf5...
+Traceback (most recent call last):
+  File "report.py", line 61, in <module>
+    model = compile_model()
+  File "report.py", line 42, in compile_model
+    model = GP.build_global_attention_pooling_model_cascade_attention([base_model1, base_model2], class_num)
+  File "/data/laser_detection/work_dirs/finegrainedcascade/LCA-CNN/model.py", line 152, in build_global_attention_pooling_model_cascade_attention
+    S = Convolution2D(class_num, (1, 1), name='conv_class')(feature_map_step_1)
+  File "/home/mtsu/miniconda3/envs/lca_cnn/lib/python3.6/site-packages/keras/engine/topology.py", line 606, in __call__
+    previous_mask = _collect_previous_mask(inputs)
+  File "/home/mtsu/miniconda3/envs/lca_cnn/lib/python3.6/site-packages/keras/engine/topology.py", line 2834, in _collect_previous_mask
+    mask = node.output_masks[tensor_index]
+AttributeError: 'Node' object has no attribute 'output_masks'

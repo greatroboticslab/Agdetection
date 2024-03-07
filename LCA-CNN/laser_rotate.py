@@ -8,8 +8,8 @@ import sys
 from multiprocessing.dummy import Pool as ThreadPool
 
 #input_dir = os.getcwd() + ""  # path to img source folder
-train_dir = 'your_training_data' #'/data/laser_detection/work_dirs/RED_cascade_rcnn_r50_fpn_20e_coco/data_split/train_new/' #os.getcwd() + "/train"  # train directory
-train_dir2 = 'your_rotated_training_data' #'/data/laser_detection/work_dirs/RED_cascade_rcnn_r50_fpn_20e_coco/data_split/train_new_rotate/' #os.getcwd() + "/trainRotate"  # train directory
+train_dir = '/data/laser_detection/work_dirs/RED_cascade_rcnn_r50_fpn_20e_coco/data_split/train_new/' #os.getcwd() + "/train"  # train directory
+train_dir2 = '/data/laser_detection/work_dirs/RED_cascade_rcnn_r50_fpn_20e_coco/data_split/train_new_rotate/' #os.getcwd() + "/trainRotate"  # train directory
 
 
 def readf():
