@@ -1,9 +1,10 @@
 
-# Instructions
+# Problem Solving
 
 ## Kriti Please show your error message or problems here. Jiaxing can take a look and get you back. Thanks!
 
 
+## Jiaxing, please reply here as well. Thanks!
 
 
 
